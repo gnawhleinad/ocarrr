@@ -70,7 +70,7 @@ while read line; do
   pdf=$line
 done &lt;/dev/stdin
 
-ocrmypdf --quiet --force-ocr "${pdf}" "$(dirname "$pdf")/$(basename "$pdf" .pdf) (ocrrr).pdf"</string>
+ocrmypdf --quiet --force-ocr "${pdf}" "$(dirname "$pdf")/$(basename "$pdf" .pdf) (ocarrr).pdf"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
